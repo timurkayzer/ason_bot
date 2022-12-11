@@ -1,0 +1,6 @@
+module.exports.productsScene = require('./scenes/productsScene')
+module.exports.languageScene = require('./scenes/languageScene')
+module.exports.categoriesScene = require('./scenes/categoriesScene')
+module.exports.mainScene = require('./scenes/mainScene')
+module.exports.cartScene = require('./scenes/cartScene')
+module.exports.checkoutScene = require('./scenes/checkoutScene')

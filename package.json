@@ -1,0 +1,22 @@
+{
+  "name": "ason_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "nodemon bot.js",
+    "scenes": "nodemon scenes.js",
+    "db": "nodemon db.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "ioredis": "^3.2.2",
+    "mongoose": "^5.0.12",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "telegraf": "^3.20.0"
+  }
+}
